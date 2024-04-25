@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 import pandas
 
-lr1 = pickle.load(open('lr1_model_14Apr.pkl','rb'))
-dt1 = pickle.load(open('dt1_model_14Apr.pkl','rb'))
-rf1 = pickle.load(open('rf1_model_14Apr.pkl','rb'))
+lr1 = pickle.load(open('lr1_model_14apr.pkl','rb'))
+dt1 = pickle.load(open('dt1_model_14apr.pkl','rb'))
+rf1 = pickle.load(open('rf1_model_14apr.pkl','rb'))
 
 
 st.title('Insurance Charge Prediction App')
